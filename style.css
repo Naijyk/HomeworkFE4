@@ -1,0 +1,197 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Задание 1 */
+
+/* body{
+    display: flex;
+    justify-content: center;
+}
+
+h1{
+    padding-bottom: 15px;
+}
+
+.container{
+    width: 500px;
+    border: 2px solid rgb(181, 42, 65);
+    border-radius: 20px;
+    color: rgb(181, 42, 65);
+    padding: 30px;
+    margin-top: 15px;
+}
+
+.tail{
+    width: 100%;
+    background-color: rgb(181, 42, 65);
+    position: fixed;
+    bottom: 0;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+} */
+
+/* Задание 2 */
+
+/*
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    border: 2px solid yellowgreen;
+    width: 500px;
+    padding: 30px;
+    margin: 50px 0 50px 0;
+}
+
+h1{
+    padding-bottom: 15px;
+}
+
+.tail1{
+    width: 100%;
+    background-color: yellowgreen;
+    position: fixed;
+    top: 0;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+} */
+
+/* Задание 3 */
+
+/* body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rgba(7, 185, 7, 0.607);
+    position: relative;
+    border-radius: 50%;
+    z-index: 0;
+}
+
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    left: 90px;
+}
+
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 1;
+    top: 100px;
+    right: 90px;
+}
+
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    top: 230px;
+    right: 200px;
+}
+
+.item4{
+    width: 200px;
+    height: 20px;
+    background-color: white;
+    position: absolute;
+    z-index: 1;
+    bottom: 100px;
+    right: 150px;
+} */
+
+/* Задание 4 */
+
+body{
+    display: flex;
+    justify-content: center;
+}
+
+.container{
+    width: 500px;
+    height: 500px;
+    background-color: rgb(152, 209, 38);
+    position: relative;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.item1{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    left: 90px;
+}
+
+.item2{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 100px;
+    right: 90px;
+}
+
+.item3{
+    width: 100px;
+    height: 100px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    z-index: 2;
+    top: 230px;
+    right: 200px;
+}
+
+.item4{
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: white;
+    position: absolute;
+    z-index: 0;
+    bottom: 50px;
+    right: 100px;
+}
+
+.item5{
+    width: 330px;
+    height: 300px;
+    border-radius: 50%;
+    background-color: rgb(152, 209, 38);
+    position: absolute;
+    z-index: 1;
+    bottom: 80px;
+    right: 85px;
+}
